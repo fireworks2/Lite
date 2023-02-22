@@ -2,12 +2,18 @@
 <!-- All items should be allowed anywhere in the xml as long as the hierarchy
      is preserved -->
 <gzproject>
-  <login>
+   <login>
     <username></username>
     <password></password>
-    <server>http://www.globalyzer.com/gzserver</server>
+    <server>https://www.globalyzer.com/gzserver</server>
+    <use-local-rulesets>false</use-local-rulesets>
+    <optional>
+      <proxy-user></proxy-user>
+      <proxy-password></proxy-password>
+      <proxy-host></proxy-host>
+      <proxy-port></proxy-port>
+    </optional>
   </login>
-
   <project-path>/var/lib/jenkins/jobs/Lingoport.Lite/workspace</project-path>
   <project-name>Lingoport.Lite</project-name>
 
